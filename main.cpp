@@ -1,4 +1,4 @@
-     
+ο»Ώ     
 #include<iostream>
 #include <string>
 using namespace std;
@@ -29,7 +29,7 @@ public:
 	      // Methods
 	virtual void print()const	
 	{		
-		cout << name << " " << surname << " " << patronymic << " " << age << "λες\n";
+		cout << name << " " << surname << " " << patronymic << " " << age << "Π»ΠµΡ‚\n";
 	}
 };
 std::ostream& operator<<(std::ostream& os, const Human& obj)
